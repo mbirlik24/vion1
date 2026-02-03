@@ -87,7 +87,7 @@ default_origins = [
     "http://localhost:3002",
     "http://127.0.0.1:3000",
     "http://127.0.0.1:3001",
-    "http://127.0.0.1:3002
+    "http://127.0.0.1:3002",
     "https://vion1.vercel.app",
 ]
 # Combine and filter out empty strings
