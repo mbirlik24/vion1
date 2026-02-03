@@ -17,9 +17,7 @@ class Settings(BaseSettings):
     
     # Model Configuration
     simple_model: str = "gpt-4o-mini"
-    complex_model: str = "gpt-4o"  # Default complex model (can be overridden to gpt-5.2-preview)
-    # Note: GPT-5.2 is available via API. To use it, set COMPLEX_MODEL=gpt-5.2-preview in .env
-    # If gpt-5.2-preview is not available, the system will automatically fallback to gpt-4o
+    complex_model: str = "gpt-5.2"  # GPT-5.2 - Latest and most powerful model
     
     # Credit costs
     simple_model_cost: float = 1.0
